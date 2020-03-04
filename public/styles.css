@@ -1,0 +1,127 @@
+form{
+    color: black;
+    border-style: groove;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 12rem;
+    text-align: center;
+    color: peachpuff;
+}
+h1{
+text-align: center;
+color: peachpuff;
+font-size: 2.3rem;
+
+}
+h3{
+text-align: center;
+color: peachpuff;
+
+
+}
+.Skills{
+text-align: center;
+color: peachpuff;
+font-size: 1rem;
+
+}
+h2{
+text-align: center;
+color: peachpuff;
+width: 100%;
+font-size: 2rem;
+
+}
+p{
+text-align: center;
+color: peachpuff;
+width: 100%;
+font-size: 1rem;
+
+}
+header{
+    background-image:url('./images/water.jpg') ;
+
+    background-repeat: repeat;
+    /* background-size: cover; */
+    background-position: center;
+    height: 250px;
+    position: center;
+    margin-top: -1%;
+  
+  }
+  nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:  2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 60px 0px 60px;
+    color: peachpuff;
+  }
+  nav a{
+      color: peachpuff;
+  }
+  .socialMedia{
+      list-style: none;
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .socialMedia a{
+      color: peachpuff;
+      text-decoration: dashed;
+      font-size: 2rem;
+ 
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    /* flex-wrap: wrap; */
+  }
+  .image {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* width: 100%; */
+
+  }
+ .info { 
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: peachpuff;
+  } 
+  .info a {
+      color: peachpuff;
+  }
+  .imageAndText {
+    display: flex; 
+    font-size: 1.5rem;
+    margin: 3rem;
+    color: peachpuff;
+  }
+  .textInfo{
+    display: flex;
+    flex-wrap: wrap; 
+    font-size: 1.5rem;
+    color: peachpuff;
+  }
+  body {
+    background-image:url('./images/water.jpg');
+    background-size: cover;
+  
+  }
+  .MainTitle{
+      font-size: 4rem;
+      margin-top: 3rem;
+  }
